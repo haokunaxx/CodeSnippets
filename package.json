@@ -1,0 +1,22 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon index.js",
+    "start": "concurrently npm:start:*",
+    "parcel": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16",
+    "parcel-bundler": "^1.12.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
